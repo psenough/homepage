@@ -1,0 +1,1151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Filipe Cruz - ps</title>
+	<link rel="STYLESHEET" type="text/css" href="index.css">
+	<link rel="shortcut icon" href="icon_bigger.gif">
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+
+
+	function hideAll() {
+		document.getElementById('about').style.display = 'none';
+		document.getElementById('projects').style.display = 'none';
+		document.getElementById('audiovisuals').style.display = 'none';
+		document.getElementById('music').style.display = 'none';
+	}
+	
+	function loadAbout() {
+	 	hideAll();
+		document.getElementById('about').style.display = 'block';
+	}
+
+	function loadProjects() {
+	 	hideAll();
+		document.getElementById('projects').style.display = 'block';
+	}
+	
+	function loadAudiovisuals() {
+	 	hideAll();
+		document.getElementById('audiovisuals').style.display = 'block';
+	}
+
+	function loadMusic() {
+	 	hideAll();
+		document.getElementById('music').style.display = 'block';
+	}
+
+	function getParameterByName(name)
+	{
+	  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+	  var regexS = "[\\?&]" + name + "=([^&#]*)";
+	  var regex = new RegExp(regexS);
+	  var results = regex.exec(window.location.href);
+	  if(results == null)
+		return "";
+	  else
+		return decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	function checkParameters() {
+		switch (getParameterByName('ref')) {
+			case 'm':
+				loadMusic();
+			break;
+			case 'p':
+				loadProjects();
+			break;
+			default:
+			break;
+		}
+	}
+
+	</script>
+	
+</head>
+<body onload="checkParameters()">
+<div id="container">
+
+	<h1>Website of Filipe Cruz, also known as ps or psenough</h1>
+	
+	<h1>
+	<span onclick="loadAbout();">? About</span>
+	&nbsp;
+	<span onclick="loadProjects();">! Projects</span>
+	&nbsp;
+	<span onclick="loadAudiovisuals();">☼ Audiovisuals</span>
+	&nbsp;
+	<span onclick="loadMusic();">♫ Soundscapes</span>
+	&nbsp;
+	</h1>
+
+	<div id="about" class="sub">
+		
+		<div><a href="#about">about</a> :: <a href="#past">past</a> :: <a href="#contact">contact</a><br /></div>
+		
+		<a name="about"></a>
+		<h1>About</h1>
+		<p>I am a Portuguese digital media artist and software developer, currently working with <a href="http://artica.cc/">Artica</a> on cool stuff. I'm known to be blunt, friendly and open minded.</p>
+		<p>From the left side of my brain I <em>develop software</em> in a bucketload of different languages and platforms, mostly things related to <em>computer graphics</em>, but often not so much. I have done all sorts of <em>interactive multimedia</em>, <em>web</em>, desktop and <em>mobile</em> applications. Sometimes for myself, sometimes for others.</p>
+		<p>From the right side of my brain I am also a <em>demoscener</em>; an amateur poetry and science fiction <em>writer</em>; an abstract line doodler; an hobbyist <em>experimental music artist</em>; and I curate a music label called <a href="http://enoughrecords.scene.org">Enough Records</a>.</p>
+		<p>I am good at project management, time planning and coordination. I'm not a great coder, but i get things done. I also seem to have a small gift of being able to cut through the time-wasting bullshit.</p>
+		<p>On the other hand: i gravely suck at graphic design; don't keep touch with friends as much as i should; and have no patience for schemers, bullshitters and marketing people.</p>
+		<p>Last but not least, i am involved with the <a href="http://audienciazero.org">Audiência Zero</a> <em>hackerspace</em> / <em>medialab</em> network.</li>
+		
+		<a name="past"></a>
+		<h1>Past</h1>
+		<ul>
+		<li>Freelance software development (Helsinki, 2011-2013)</li>
+		<li>Head software developer for <a href="http://www.takethewind.com">Take The Wind</a> - a company doing biomedical multimedia communication (Coimbra, 2008-2011)</li>
+		<li>Academic research on optimization algorythms and generative graphics (Porto, 2005-2008)</li>
+		<li>MSc Informatics Engineering - pre bologna (<a href="http://www.fe.up.pt">FEUP</a>, 2006-2008)</li>
+		<li>Informatics Engineering (<a href="http://www.fe.up.pt">FEUP</a>, 2001-2006)</li>
+		<li>Civil Engineering (<a href="http://www.fe.up.pt">FEUP</a>, 1997-2001)</li>		
+		</ul>
+		
+		<a name="contact"></a>
+		<h1>Contact</h1>
+		<ul>
+		<li><a href='mail&#116;o&#58;%70&#115;e&#37;&#54;Eough&#64;&#37;67&#37;6Dail&#46;com'>&#112;s&#101;&#110;&#111;&#117;gh&#64;&#103;mai&#108;&#46;&#99;o&#109;</a></li>
+		<li><a href="http://twitter.com/psenough">http://twitter.com/psenough</a></li>
+		<li><a href="http://delicious.com/psenough">http://delicious.com/psenough</a></li>
+		<li><a href="http://github.com/psenough">http://github.com/psenough</a></li>
+		<li><a href="https://bitbucket.org/psenough">https://bitbucket.org/psenough</a></li>
+		<li><span><a href="http://flattr.com/thing/32359/imFlattrd-com-psenough" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></span></li>
+		</ul>
+	</div>
+	
+	<div id="projects" class="sub">
+		<div><a href="#2013">2013</a> :: <a href="#2012">2012</a> :: <a href="#past">2011</a></div>
+		
+		<a name="2013"></a>
+		<h1>2013</h1>
+		<ul>
+		<li><a href="http://www.artica.cc/blog/2013/07/15/ciav-tech-report/">Centro de Interpretação de Almada Velha</a> - interactive museum, did software architecture and development with the <a href="http://www.artica.cc">Artica</a> guys.</li>
+		<li><a href="https://itunes.apple.com/us/app/action-movie-quiz/id636279134?ls=1&mt=8">Action Movie Quiz</a> - movie quiz app for iOS.</li>
+		<li><a href="wl_clot">Warlight Custom Ladders</a> - custom game ladders system for warlight, a risk-clone web game.</li>
+		<li><a href="https://itunes.apple.com/us/app/amazing-movie-quiz-female/id635717742?ls=1&mt=8">Movie Quiz (Female Stars)</a> - movie quiz app for iOS.</li>
+		<li><a href="https://itunes.apple.com/us/app/amazing-movie-quiz-male-stars/id632428337?ls=1&mt=8">Movie Quiz (Male Stars)</a> - movie quiz app for iOS.</li>
+		<li><a href="https://itunes.apple.com/us/app/under-a-seering-sky/id604534296?ls=1&mt=8">Under a Seering Sky</a> - port to iOS using phonegap.</li>
+		<li><a href="mana_burn">Mana Burn</a> - gallery of images, composed as derivative work of Leviathan Sun.</li>
+		<li><a href="https://itunes.apple.com/us/app/197-fun-with-flags/id622322450?ls=1&mt=8">Fun With Flags</a> - flag quiz app for kids and fans of Sheldon Cooper.</li>
+		<li><a href="https://itunes.apple.com/us/app/leviathan-sun-clock/id607867332?ls=1&mt=8">Leviathan Sun Clock</a> - port to iOS of Leviathan Sun, now with a clock.</li>
+		<li><a href="http://tpolm.org/~ps/recyclebinladen/leviathan_sun">Leviathan Sun</a> - Entry for Payback PC Intro Competition, javascript canvas 4k.</li>
+		<li><a href="http://emerge.bandcamp.com/album/a-moment-demystified">A Moment Demystified</a> - music release of field recordings and drones. Available through Attenuation Circuit.</li>
+		</ul>
+		
+		<a name="2012"></a>
+		<h1>2012</h1>
+		<ul>
+		<li><a href="http://auricularrecords.bandcamp.com/album/a-moment-to-sleep">A Moment to Sleep</a> - music release of field recordings and drones. Available through Auricular Records.</li>
+		<li><a href="http://rosanamc.com/noninjas/">Corrupt Ladder</a> - web-based gamebook, made in javascript, part of Sapo Codebits 2012 48h project.</li>
+		<li><a href="http://soundarchives.audienciazero.net/">LCD Mostra-se</a> - field recordings album of the self-titled LCD projects showcase event that took place in June.</li>
+		<li><a href="http://tpolm.org/~ps/becoming_1337">Becoming 1337</a> - Sci-fi web-based gamebook, made in javascript.</li>
+		<li><a href="http://pouet.net/prod.php?which=59402">Parsley State</a> - Entry for DemoJS 2012 browser 10k competition, javascript canvas.</li>
+		<li><a href="http://enoughrecords.scene.org/uass">Under a Seering Sky</a> - Sci-fi web-based gamebook, made in javascript.</li>
+		<li><a href="http://www.archive.org/details/enrmp300_ps_-_wake_up">Wake Up!</a> - music release of dark ambient and industrial sounds with some social activism.</li>
+		<li><a href="http://pouet.net/prod.php?which=59272">Cyboman 5</a> - Entry for Stream 2012 Tiny Intro Competition, javascript canvas 4k.</li>
+		<li><a href="http://itunes.apple.com/us/app/your-dog-book/id532545901?mt=8">Your Dog Book</a> - A mobile application developed using Phonegap and Sencha Touch. Allows the user to manage and browse information about their dogs. Available for  <a href="http://itunes.apple.com/us/app/your-dog-book/id532545901?mt=8">iOS</a>.</li>
+		<li><a href="http://js1k.com/2012-love/demo/1092">Spreading Love Liebe Amor</a> - Entry for JS1K, online javascript canvas 1k competition.</li>
+		<li><a href="http://vimeo.com/36366361">Paint Video Signals</a> - Experimental audiovisual project developed in collaboration with Andrea Inocêncio at an AZ Labs residency in Montemor.</li>
+		<li><a href="http://enoughrecords.scene.org/anonymous_archives">99 Anonymous</a> - Series of mixtapes on the topics of Anonymous / #antisec / Wikileaks / Occupy Wall Street / SOPA / ACTA / #pl118.</li>
+		<li><a href="http://itunes.apple.com/us/app/your-cat-book/id512067070?mt=8">Your Cat Book</a> - A mobile application developed using Phonegap and Sencha Touch. Allows the user to manage and browse information about their cats. Available for <a href="https://play.google.com/store/apps/details?id=com.psenough.catbook">Android</a> and <a href="http://itunes.apple.com/us/app/your-cat-book/id512067070?mt=8">iOS</a>.</li>
+		</ul>
+		
+		<a name="2011"></a>
+		<h1>2011</h1>
+		<ul>
+		<li><a href="http://yourbabybook.info">Your Baby Book</a> - A mobile application developed using Phonegap and Sencha Touch. Allows the user to manage and browse information about their babies. Available for <a href="https://play.google.com/store/apps/details?id=com.psenough.babybook_full">Android</a> and <a href="http://itunes.apple.com/us/app/your-baby-book/id489892364?ls=1&mt=8">iOS</a>.</li>
+		<li><a href="http://tpolm.org/~ps/shogun_neophyte/">Shogun Neophyte</a> - A small webdemo about networking graphics. Hacked the <a href="http://www.kesiev.com/stripthis/">stripthis</a> webcomic tool to do something more then it was designed for.</li>
+		<li><a href="http://altlab.org/2011/11/17/nuclear-taco-sensor-helmet-gameshow/">Nuclear Taco Sensor Helmet Gameshow</a> - 48h hack project for Sapo Codebits 2011, involving Arduino, OpenFrameworks and some presentation skills. We won the audience vote award.</li>
+		<li>Energy Wasters Anonymous - Smartphone social networking game for PT Innovation Challenge, game prototype to help society waste less energy.</li>
+		<li><a href="http://playwithfire.artivis.net/">Play With Fire</a> - Interactive art installation project. Helped develop the smartphone application part of the project.</li>
+		<li><a href="anonmirror">AnonMirror</a> - Interactive art installation project commissioned by <a href="http://www.oespacodotempo.pt/pt/">Espaço do Tempo</a> and Ciência Viva. Used the Kinect with LibCinder to call for Anonymous social awareness.</li>
+		<li><a href="http://www.tpolm.org/~ps/minimalartifact_-_pgen/">pgen</a> - Generative graphics and sound in a processingJS demo</a>.</li>
+		<li><a href="http://www.tpolm.org/~ps/fxm_-_blind_serpent/">Blind Serpent</a> - Remix of a WebGL demo</a>.</li>
+		<li>Appendix - Art installation project by <a href="http://www.saunalahti.fi/~off/off/">Laura Beloff</a>, helped develop PHP web scrapping technology and integration with Twitter API.</li>
+		<li><a href="http://www.marioneteatro.com/2011/lab-la-bla/?lang=en">Lab La Bla</a> - Theater performance by Marionet, helped develop projection of word scrambling algoryhtm technology, made using Processing.</li>	
+		</ul>
+	</div>
+
+	<div id="audiovisuals" class="sub">
+		<div><a href="#demology">demology</a> :: <a href="#talks">talks presented</a> :: <a href="#events">events organized</a><br /></div>
+		
+		<a name="demology"></a>
+		<h1>Demology</h1>
+
+		<p align="center">
+		Dick Grayson's Darkest Secrets<br />
+		<img src="http://pouet.net/screenshots/64973.jpg"><br />[<a href="http://scene.org/~ps/tpolm_-_dick_grayson" target="_parent">online</a>] - [<a href="http://www.pouet.net/prod.php?which=64973" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Violent Nature<br />
+		<iframe width="420" height="315" src="//www.youtube.com/embed/TVSDDW1mjAU" frameborder="0" allowfullscreen></iframe><br />[<a href="http://pouet.net/prod.php?which=61620" target="_parent">pouet</a>]<br /></p>
+
+		<p align="center">
+		Leviathan Sun<br />
+		<img src="http://pouet.net/screenshots/60977.png"><br />[<a href="http://tpolm.org/~ps/recyclebinladen/leviathan_sun" target="_parent">online</a>] - [<a href="http://www.pouet.net/prod.php?which=60977" target="_parent">pouet</a>] - [<a href="http://js-lm.blogspot.fi/2013/02/making-of-leviathan-sun.html" target="_parent">making of</a>]<br /></p>
+		
+		<p align="center">
+		Parsley State<br />
+		<img src="http://pouet.net/screenshots/59402.png"><br />[<a href="tpolm_-_parsley_state.png.html" target="_parent">online</a>] - [<a href="http://pouet.net/prod.php?which=59402" target="_parent">pouet</a>] - [<a href="http://js-lm.blogspot.fi/2013/01/making-of-parsley-state.html" target="_parent">making of</a>]<br /></p>
+		
+		<p align="center">
+		Under a Seering Sky<br />
+		<img src="http://enoughrecords.scene.org/uass/images/title_screen.png"><br />[<a href="http://enoughrecords.scene.org/uass/" target="_parent">online</a>] - [<a href="http://pouet.net/prod.php?which=59381" target="_parent">pouet</a>] - [<a href="http://js-lm.blogspot.fi/2013/01/making-of-under-seering-sky.html" target="_parent">making of</a>]<br /></p>	
+		
+		<p align="center">
+		Cyboman 5<br />
+		<img src="http://pouet.net/screenshots/59272.jpg"><br />[<a href="tpolm_-_cyboman5.png.html" target="_parent">online</a>] - [<a href="http://pouet.net/prod.php?which=59272" target="_parent">pouet</a>] - [<a href="http://js-lm.blogspot.fi/2013/01/making-of-cyboman-5.html" target="_parent">making of</a>]<br /></p>
+		
+		<p align="center">
+		Shogun Neophyte<br />
+		<img src="http://pouet.net/screenshots/58155.png"><br />[<a href="shogun_neophyte" target="_parent">online</a>] - [<a href="http://pouet.net/prod.php?which=58155" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		pgen<br />
+		<img src="http://www.pouet.net/screenshots/57444.jpg"><br />[<a href="http://www.tpolm.org/~ps/minimalartifact_-_pgen" target="_parent">online</a>] - [<a href="http://pouet.net/prod.php?which=57444" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Blind Serpent<br />
+		<img src="http://www.pouet.net/screenshots/57150.jpg"><br />[<a href="http://tpolm.org/~ps/fxm_-_blind_serpent/" target="_parent">online</a>] - [<a href="http://www.pouet.net/prod.php?which=57150" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Anoxia Redux<br />
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/BQXQUY5tlTQ" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="http://www.asd.gr/~navis/ASD-Anoxia%20Redux.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=55990" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Winter Breathe<br />
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/BmyrlhnDkE8" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="http://www.scene.org/file.php?file=%2Fparties%2F2009%2Fmain09%2Fhugescreen%2Fwinterbreathe.zip&fileinfo" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=53987" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Taxesss<br />
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HvJ06s12xYs" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="http://www.scene.org/file.php?file=%2Fparties%2F2009%2Fmain09%2Fdemo%2Fnothing_-_taxesss_win32.zip&fileinfo" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=53952" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Outside<br />
+		<img src="http://www.pouet.net/screenshots/53040.jpg" width="250"/><br />
+		[<a href="ftp://ftp.untergrund.net/breakpoint/2009/pc_demo/outside.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=53040" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		Deep<br />
+		<iframe src="//player.vimeo.com/video/3872617" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br />
+		[<a href="http://www.scene.org/file.php?file=%2Fdemos%2Fgroups%2Fnothing%2Fnothing_ma_-_deep_win32.zip&fileinfo" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=53082" target="_parent">pouet</a> - <a href="http://www.pixelnerve.com/v/2009/08/18/deep-source-code/" target="_parent">source</a>]<br /></p>
+		
+		<p align="center">
+		080808 of the death<br />
+		<img src="http://www.pouet.net/screenshots/51218.gif" width="250"/><br />
+		[<a href="http://www.kosmoplovci.com/080808/" target="_parent">minisite</a> - <a href="ftp://ftp.scene.org/pub/parties/2008/evoke08/demo/kooi.ma_-_080808.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=51218" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		your song is quiet, pt2<br />
+		<img src="http://www.pouet.net/screenshots/33130.png" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2007/altparty07/demo/song2_pc.rar" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=33130" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		the lost religion of light<br />
+		<img src="http://www.pouet.net/screenshots/32205.jpg" width="250"/><br />
+		[<a href="http://www.crsn.com/kosmoplovci/thelostreligionoflight/" target="_parent">minisite</a> - <a href="ftp://ftp.scene.org/ftp/pub/parties/2007/function07/demo/kooi_ma-tlrol.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=32205" target="_parent">pouet</a>]<br /></p>
+		
+		<p align="center">
+		fleurs hallow<br />
+		<img src="http://www.pouet.net/screenshots/32069.jpg" width="300"/><br />		
+		[<a href="ftp://ftp.scene.org/pub/parties/2007/buenzli07/ohp/buenzli16_ohp_tpolm_and_5711-fleurs_haliot_720x576_divx_mp3.avi" target="_parent">video</a> - <a href="http://www.pouet.net/prod.php?which=32069" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		fr-059: disintegrates<br />
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/e_SAs4nfgVA" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2007/euskal15/demo/fr-058.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=31352" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		fr-056: gravity of the moon<br />
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/LMhQjo4odFg" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2007/simulaatio07/demo/fr-056.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=30828" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		fr-055: 828<br />
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/ItM7mX9sdJY" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="http://www.farbrausch.de/~fg/demos/fr-055_828_final.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=29739" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		agna<br />
+		<img src="http://www.pouet.net/screenshots/20640.png" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2005/bgparty05/demo/minimalartifact_agna.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=20640" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		p351<br />
+		<img src="http://www.pouet.net/screenshots/20162.jpg" width="250"/><br />
+		[<a href="http://www.crsn.com/kosmoplovci/p351/" target="_parent">minisite</a> - <a href="ftp://ftp.scene.org/pub/parties/2005/bcnparty05/demo/p351.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=20162" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		a deepness in the sky - dark & long remix<br />
+		<img src="http://www.pouet.net/screenshots/18625.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2005/buenzli05/demo/deepness_remix.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=18625" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		untitled bp05 intro<br />
+		<img src="http://www.pouet.net/screenshots/16400.png" width="250"/><br />
+		[<a href="http://www.crsn.com/kosmoplovci/untitledintro/" target="_parent">minisite</a> - <a href="ftp://ftp.scene.org/pub/parties/2005/breakpoint05/misc/kooi_vs_minimalartifact_-_untitled_bp05_intro.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=16400" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		fr-045: life after<br />
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QQgpknC-SQQ" frameborder="0" allowfullscreen></iframe><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2005/breakpoint05/demo/fr-045_life_after.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=16335" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		progression<br />
+		<img src="http://www.pouet.net/screenshots/13059.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2004/assembly04/short_film/progression_compo.avi" target="_parent">video</a> - <a href="http://www.pouet.net/prod.php?which=13059" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		electro glide in black<br />
+		<img src="http://www.pouet.net/screenshots/12969.gif" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2004/inercia04/demo/minimalartifact_-_electro_glide_in_black.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=12969" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		ana<br />
+		<img src="http://www.pouet.net/screenshots/11035.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2003/buenzli03/demo/minimalartifact_ana.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=11034" target="_parent">pouet</a> - <a href="ftp://ftp.scene.org/pub/parties/2003/bcnparty11/demo/minimalartifact_ana_remix.zip" target="_parent">remix</a> - <a href="http://www.pouet.net/prod.php?which=11035" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		minimalartifact_1<br />
+		<img src="http://www.pouet.net/screenshots/11032.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2003/inercia03/demo/minimalartifact_1.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=11032" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		toptiny greenretork<br />
+		<img src="http://www.pouet.net/screenshots/13088.png" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2002/bcnparty10/in4k/toptiny_greenretork.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=13088" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		mg_r<br />
+		<img src="http://www.pouet.net/screenshots/8184.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2002/bcnparty10/demo/mg_r_v17.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=8184" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		toptiny redexit<br />
+		<img src="http://www.pouet.net/screenshots/7478.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2002/inercia02/in64/calodox-toptiny_redexit.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=7478" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		dp<br />
+		<img src="http://www.pouet.net/screenshots/6111.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2002/mekkasymposium02/demo/shown/dp_final.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=6111" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		graerk<br />
+		<img src="http://www.pouet.net/screenshots/5669.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/2002/mekkasymposium02/demo/not_shown/cdx_mj_graerk.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=5669" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		true<br />
+		<img src="http://www.pouet.net/screenshots/739.jpg" width="250"/><br />
+		[<a href="http://www.weltmarktfuehrer.de/files/pc/hjb_true.zip" target="_parent">download (dos only)</a> - <a href="http://www.pouet.net/prod.php?which=739" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		m<br />
+		<img src="http://www.pouet.net/screenshots/5714.gif" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/1999/reboot99/demo/dos/m_win32.zip" target="_parent">download</a> - <a href="http://www.pouet.net/prod.php?which=5714" target="_parent">pouet</a>]<br />
+		</p>
+		
+		<p align="center">
+		bel wazoo<br />
+		<img src="http://www.pouet.net/screenshots/12769.jpg" width="250"/><br />
+		[<a href="ftp://ftp.scene.org/pub/parties/1998/dreamhack98/in64/bel_wazo.zip" target="_parent">download (dos only)</a> - <a href="http://www.pouet.net/prod.php?which=12769" target="_parent">pouet</a>]<br />
+		</p>		
+		
+		
+		<p>
+		<a name="talks"></a>
+		<h1>Talks</h1>
+		130802 - History of web browser demos @ Assembly 2013 (Helsinki) [<a href="history_of_web_browser_demos">slides</a> - <a href="http://archive.assembly.org/2013/">video</a>]<br>
+		121115 - Javascript Canvas Audiovisual Light and Magic @ Sapo Codebits 2012 (Lisboa) [<a href="http://www.tpolm.org/~ps/javascript_canvas_audiovisual_light_and_magic/">slides</a> - <a href="http://videos.sapo.pt/M2MQqbzceSdWivcWRhmp">video</a>]<br>
+		110804 - Remix Culture In The Demoscene @ Assembly (Helsinki) [<a href="remix_culture_in_the_demoscene">slides</a> - <a href="http://archive.assembly.org/2011/seminars/remix-culture-in-the-demoscene#content">video</a>]<br />
+		091212 - Taxesss from Nothing @ AZ Hacklab meeting (Porto) [<a href="http://www.youtube.com/watch?v=8SPzaS8zF2g">video</a>]<br />
+		091203 - Hacking The Demoscene From Portugal @ Sapo Codebits 2009 (Lisboa) [<a hreF="http://codebits.eu/intra/s/session/78">stream</a> - <a href="http://www.tpolm.org/~ps/codebits09_demoscene_presentation/">slides</a>]<br />
+		091110 - xDA Talks #1 - Demoscene @ xDA (Coimbra)<br /> 
+		090913 - Enough is Enough - Movimento Netaudio em Portugal @ Barcamp PT Setembro 09 (Coimbra)<br />
+		090323 - Deep - Hacking Processing for ogl shaders @ Barcamp PT Spring 09 (Coimbra)<br />
+		09???? - Demoscene at Festival Animatu @ CAEP (Portalegre)<br />
+		0811?? - Semana Multimedia @ Teatro Aveirense (Aveiro)<br />
+		081025 - Demoscene Seminar @ Helsinki Art Academy (Helsinki/Finland)<br />
+		081023 - LCD Talks #1 - Demoscene @ LCD (Matosinhos)<br />
+		08???? - Demoscene Festival Animatu @ Bar do Desassossego (Beja)<br />
+		07???? - Demoscene Festival Animatu @ Teatro Pax Julia (Beja)<br />
+		?????? - Demoscene @ Semana Académica IST (Lisboa)<br />
+		060325 - Como hoder la escena @ ifparty (Univ. Pol.) (Valencia/Spain)<br />
+		050624 - What is the demoscene? @ Demozone (Biddinghuizen/Holland)<br />
+		031227 - Estado da arte na demoscene @ KEP2 (V.N. Gaia)<br />
+		02???? - Demoscene workshop @ DEI-FCUP (Porto)<br />
+		</p>
+				
+		<p>
+		<a name="events"></a>
+		<h1>Events Organized</h1>
+		<a href="http://tpolm.org/~ps/hsk_pubmeet_150205">Helsinki Pubmeet 150205</a><br />
+		<a href="http://tpolm.org/~ps/hsk_pubmeet_150118">Helsinki Pubmeet 150118</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta8">ScenePT Demoilta #8</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta7">ScenePT Demoilta #7</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta6">ScenePT Demoilta #6</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta5">ScenePT Demoilta #5</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta4">ScenePT Demoilta #4</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta3">ScenePT Demoilta #3</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta2">ScenePT Demoilta #2</a><br />
+		<a href="http://tpolm.org/~ps/scenept_demoilta1">ScenePT Demoilta #1</a><br />
+		<a href="http://inerciademoparty.net">inérciaDemoparty 2012</a><br />
+		<a href="http://tpolm.org/~ps/id05_2010/">inérciaDemoparty 2010</a><br />
+		<a href="http://inercia.scene.org">inérciaDemoparty 2008</a><br />
+		inérciaDemoparty 2006<br />
+		inérciaDemoparty 2005<br />
+		<a href="http://dst05.blogspot.com/">demoscene summer tour 2005</a><br />
+		<a href="http://www.tpolm.org/~ps/kep3/">kep3</a><br />
+		inérciaDemoparty 2004<br />
+		<a href="http://www.tpolm.org/~ps/kep2/">kep2</a><br />
+		inérciaDemoparty 2003<br />
+		inérciaDemoparty 2002<br />
+		bustrip to mekka symposium 2002<br />
+		inérciaDemoparty 2001<br />
+		</p>
+	</div>
+
+
+
+	<div id="music" class="sub">
+	
+		<div style="float: right;">
+		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/ps/240908116773" width="350" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>
+	
+		<br /><br />
+	
+		<script type="text/javascript">
+			var flattr_url = 'http://www.tpolm.org/~ps/music.php';
+		</script>
+		<script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
+		</div>
+	
+		<div style="clear:left"><a href="#releases">releases</a> :: <a href="#reviews">reviews</a> :: <a href="#concerts">live concerts</a> :: <a href="#talks2">talks & interviews</a> :: <a href="#photos">photos</a> :: <a href="#events2">organized events</a><br />
+	
+		<a name="releases"></a>
+		<h1>Releases</h1>
+		<table>
+		
+		<tr><td valign="top"><a href="http://www.clubotaku.org/mimi/uk/album228.php"><img src="http://www.clubotaku.org/mimi/img/va_noise_1.jpg" width="150px"></td><td valign="top">Various Artists - Noise from Portugal vol.1 [Mi228]<br /><br />
+		7) ps - Annealing Scythe<br />
+		<br />
+		[<a href="http://www.clubotaku.org/mimi/uk/album228.php">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		
+		<tr><td valign="top"><a href="http://archive.org/details/enrcmp20_-_atlanthis_2"><img src="music_covers/music_enrcmp20.jpg" width="150px"></td><td valign="top">Various Artists - AtlanThis 2 [erncmp20]<br /><br />
+		5) ps vs Infetu - Last Wave<br />
+		<br />
+		[<a href="http://archive.org/details/enrcmp20_-_atlanthis_2">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		
+		<tr><td valign="top"><a href="http://emerge.bandcamp.com/album/implanted"><img src="music_covers/music_acps1002.jpg" width="150px"></td><td valign="top">Various Artists - Implanted [ACPS1002]<br /><br />
+		7) ps - umi no drone 121215<br />
+		<br />
+		[<a href="http://emerge.bandcamp.com/album/implanted">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		
+		
+		<tr><td valign="top"><a href="http://emerge.bandcamp.com/album/a-moment-demystified"><img src="music_covers/music_acp1008.jpg" width="150px"></td><td valign="top">ps - A Moment Demystified [ACP1008]<br /><br />
+		1) ps - A Moment Demystified<br />
+		<br />
+		[<a href="http://emerge.bandcamp.com/album/a-moment-demystified">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://archive.org/details/edp058"><img src="http://4.bp.blogspot.com/-W0TjEb_sCM4/UOsLoXniF9I/AAAAAAAAApo/9zQcEpk3SrA/s320/edp058.jpg" width="150px"></td><td valign="top">Various Artists - No Labels No Musics 4 [EdP058]<br /><br />
+		ps - Vague Mark of Absence<br />
+		<br />
+		[<a href="http://archive.org/details/edp058">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://archive.org/details/enrcmp18_-_100_years_of_noise_-_public_domain_celebration_release"><img src="http://enoughrecords.scene.org/covers/enrcmp18.jpg" width="150px"></td><td valign="top">Various Artists - 100 Years of Noise [enrcmp18]<br /><br />
+		4) ps - 100 Years of Government Corruption<br />
+		<br />
+		[<a href="http://archive.org/details/enrcmp18_-_100_years_of_noise_-_public_domain_celebration_release">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://auricularrecords.bandcamp.com/album/a-moment-to-sleep"><img src="music_covers/music_a_moment_to_sleep.jpg" width="150px"></td><td valign="top">ps - A Moment to Sleep<br /><br />
+		1) Demoparty Sleeping Halls<br>
+		2) Dreamstate, Eye Witness, Part 1<br>
+		3) Dreamstate, Eye Witness, Part 2<br>
+		4) Leaving Helsinki in a State of Perpetual Quagmire<br>
+		5) Too Tired to Sleep at Those Electrolyte Airports<br>
+		6) Fading Under City Trees<br>
+		<br />
+		[<a href="http://auricularrecords.bandcamp.com/album/a-moment-to-sleep">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.clubotaku.org/mimi/pt/album200.php"><img src="http://www.clubotaku.org/mimi/img/va_loxodromia200.jpg" width="150px"></td><td valign="top">Various Artists - Loxodromia 200 [mimi200]<br /><br />
+		11) ps - A Moment to Sleep (ckz manipulation)<br />
+		<br />
+		[<a href="http://www.clubotaku.org/mimi/pt/album200.php">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://politiquisses.bandcamp.com/album/apresenta-corrup-o-em-portugal-por-paulo-morais-songified"><img src="music_covers/music_politiquisses_paulo_morais.jpg" width="150px"></td><td valign="top">Politiquisses - Apresenta: "Corrupção em Portugal por Paulo Morais" Songified<br /><br />
+		1) Politiquisses - Nós Hoje Temos Uma Crise<br />
+		2) Politiquisses - É Inexplicável, É Inconcebivel<br />
+		3) Politiquisses - Nós Não Estamos Habituados a Este Tipo de Frontalidade<br />
+		<br />
+		[<a href="http://politiquisses.bandcamp.com/album/apresenta-corrup-o-em-portugal-por-paulo-morais-songified">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://signalvoid.tumblr.com/"><img src="http://24.media.tumblr.com/tumblr_m8j5rdtHR51rtij50o1_1280.jpg" width="150px"></td><td valign="top">Various Artists - SIGNALVOID<br /><br />
+		<br />
+		[<a href="http://signalvoid.tumblr.com/">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://soundarchives.audienciazero.net/"><img src="music_covers/music_azsa01.jpg" width="150px"></td><td valign="top">ps - LCD Mostra-se [AZSA_01]<br /><br />
+		1) ps - Via Verde Highway Exit<br>
+		2) ps - Inside CAAA<br>
+		3) ps - Walking the Streets of Guimarães, Part 1<br>
+		4) ps - Arriving at Éfaté's location<br>
+		5) João Carvalho - Éfaté<br>
+		6) ps - Walking the Streets of Guimarães, Part 2<br>
+		7) ps - The Building at Praça 25 de Abril<br>
+		8) ps - Walking the Streets of Guimarães, Part 3<br>
+		9) ps - Creatura<br>
+		10) ps - Anonymous Mirror<br>
+		11) ps - The Solitude is Sore<br>
+		12) ps - A Beer Break, Lacking Lupin Beans<br>
+		13) ps - Tripit<br>
+		14) ps - Taking Things Down<br>
+		<br />
+		[<a href="http://soundarchives.audienciazero.net/">release page</a>] - [<a href="http://soundarchives.audienciazero.net/azsa_01_-_lcd_mostra-se.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/enrmp300_ps_-_wake_up"><img src="music_covers/music_enrmp300.jpg" width="150px"></td><td valign="top">ps - Wake Up [enrmp300]<br /><br />
+		1) ps - Wake Up Part 1<br />
+		1) ps - Wake Up Part 2<br />
+		1) ps - Wake Up Part 3<br />
+		1) ps - Wake Up Part 4<br />
+		1) ps - Wake Up Part 5<br />
+		1) ps - Wake Up Part 6<br />
+		<br />
+		[<a href="http://www.archive.org/details/enrmp300_ps_-_wake_up">release page</a>] - [<a href="http://archive.org/download/enrmp300_ps_-_wake_up/enrmp300_ps_-_wake_up_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/edp051"><img src="music_covers/music_edp051.jpg" width="150px"></td><td valign="top">Various Artists - No Labels No Musics III [EdP051]<br /><br />
+		17) ps - night of the living swans<br />
+		<br />
+		[<a href="http://www.archive.org/details/edp051">release page</a>] - [<a href="http://www.archive.org/download/edp051/edp051_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/enrcmp16_-_atlanthis"><img src="music_covers/music_enrcmp16.jpg" width="150px"></td><td valign="top">Various Artists - AtlanThis [enrcmp16]<br /><br />
+		2) ps - Structura Cava (Structura remix)<br />
+		4) ps - Over the Atlantic Rift<br />
+		<br />
+		[<a href="http://www.archive.org/details/enrcmp16_-_atlanthis">release page</a>] - [<a href="http://www.archive.org/download/enrcmp16_-_atlanthis/enrcmp16_-_atlanthis_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://impulsivehabitat.com/releases/ihab037.htm"><img src="music_covers/music_ihab037.jpg" width="150px"></td><td valign="top">ps - Hämeentie [ihab037]<br /><br />
+		1) ps - Hämeentie<br />
+		<br />
+		[<a href="http://impulsivehabitat.com/releases/ihab037.htm">release page</a>] - [<a href="http://impulsivehabitat.com/releases/037/ihab037.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/Ps-Juhannusgfr028"><img src="music_covers/music_gfr028.jpg" width="150px"></td><td valign="top">ps - Juhannus [gfr028]<br /><br />
+		1) ps - Bus 24 Helsinki seurasaari<br />
+		2) ps - Bridge to Seurasaari<br />
+		3) ps - Forging a Nail<br />
+		4) ps - Horn<br />
+		5) ps - Traditional Dances<br />
+		6) ps - Bonfire Shore<br />
+		7) ps - Top of the Island<br />
+		8) ps - Windy South Shore<br />
+		9) ps - Waiting for the Main Bonfire<br />
+		10) ps - Bus 24 Seurasaari Helsinki<br />
+		11) ps - L Train Helsinki Leppavaara<br />
+		<br />
+		[<a href="http://www.archive.org/details/Ps-Juhannusgfr028">release page</a>] - [<a href="http://www.archive.org/download/Ps-Juhannusgfr028/Ps-Juhannusgfr028_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/D0x10-GayNoise-Ps-PlayingWithNuns4WaySplit"><img src="music_covers/music_4way.jpg" width="150px"></td><td valign="top">d0x10 - Gay Noise - ps - playing with nuns (4 way split)<br /><br />
+		1) ps - 110701b <br />
+		<br />
+		[<a href="http://www.archive.org/details/D0x10-GayNoise-Ps-PlayingWithNuns4WaySplit">release page</a>] - [<a href="http://www.archive.org/download/D0x10-GayNoise-Ps-PlayingWithNuns4WaySplit/D0x10-GayNoise-Ps-PlayingWithNuns4WaySplit_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/Never_Step_On_Moss_Again"><img src="music_covers/music_treetrunk_152.jpg" width="150px"></td><td valign="top">ps - Never Step On Moss Again [treetrunk152]<br /><br />
+		1) ps - Tardigrade Transmission of Self-determination<br />
+		2) ps - Arise, My Volvox Bethren<br />
+		3) ps - Reign of Worms, Locust Hydra<br />
+		<br />
+		[<a href="http://www.archive.org/details/Never_Step_On_Moss_Again">release page</a>] - [<a href="http://www.archive.org/download/Never_Step_On_Moss_Again/Never_Step_On_Moss_Again_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://justnotnormal.wordpress.com/2010/08/07/jnn100-various-artists-no-r-mal-ii/"><img src="music_covers/music_jnn100.jpg"></td><td valign="top">Various Artists - no-r-mal II [jnn100]<br /><br />
+		CD6 1) ps - ni100603<br />
+		<br />
+		[<a href="http://justnotnormal.wordpress.com/2010/08/07/jnn100-various-artists-no-r-mal-ii/">release page</a>] - [<a href="http://www.mystahr.com/JNN/JNN100/JNN100.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/compress/EdP029_ps_new_impulses_to_old_elements"><img src="music_covers/music_edp029.jpg" width="150px"></td><td valign="top">ps - New Impulses to Old Elements [EdP029]<br /><br />
+		01) New Impulses to Old Elements<br />
+		<br />
+		Recorded Live @ Convento da Saudação (Montemor-o-Novo) 100712<br />
+		Part of <a href="http://www.audienciazero.org/espacodotempo/">AZLabs residency @ O Espaço do Tempo</a><br />
+		<br />
+		[<a href="http://www.archive.org/details/EdP029_ps_new_impulses_to_old_elements">release page</a>] - [<a href="http://www.archive.org/compress/EdP029_ps_new_impulses_to_old_elements">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.kosmoplovci.net/music/futuradio090905/"><img src="music_covers/music_kooi0028.jpg"></td><td valign="top">ps - futuradio090905 [KOOI0028]<br /><br />
+		01) psmac_001_090120 (00:00)<br />
+		02) psmac_015c_090314 (00:00)<br />
+		03) psmac_011_081202 (01:27)<br />
+		04) psmac_015d_090526 (02:26)<br />
+		05) psmac_012_090113 (04:12)<br />
+		06) psmac_012_090113_2 (05:00)<br />
+		07) psmac_014_090310 (05:00)<br />
+		08) 352_080301 (06:36)<br />
+		09) psmac_012_090113_2 (07:32)<br />
+		10) psmac_014_090125 (13:57)<br />
+		11) psmac_010_081004 (14:02)<br />
+		12) asio005_090812 (20:46)<br />
+		13) psmac_015c_090314 (21:03)<br />
+		14) 346_080609 (26:48)<br />
+		<br />
+		[<a href="http://www.kosmoplovci.net/music/futuradio090905/">release page</a>] - [<a href="http://floatingjoint.kosmoplovci.net/releases/KOOI0028_ps_-_futuradio090905.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="https://wolfenmond.1a-shops.eu/"><img src="music_covers/music_neumond.jpg"></td><td valign="top">Wolfenmond - Neumond<br /><br />
+		14) ymir remix - filipe cruz<br />
+		<br />
+		[<a href="https://wolfenmond.1a-shops.eu/">online store</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/edp008Ps-MAndM"><img src="music_covers/music_edp008.jpg"></td><td valign="top">ps - m&amp;m [EdP008]<br /><br />
+		1) psmac017_s001<br />
+		2) psmac017_s002<br />
+		3) psmac017_s003<br />
+		4) psmac017_s004<br />
+		5) psmac017_s005<br />
+		6) psmac017_s006<br />
+		7) psmac017_s007<br />
+		<br />
+		[<a href="http://www.archive.org/details/edp008Ps-MAndM">release page</a>] - [<a href="http://www.archive.org/download/edp008Ps-MAndM/edp008Ps-MAndM_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<!--<tr><td valign="top"><a href="http://www.op3n.net/2009/05/op3n035-filipe-cruz-aka-ps-enough-records-sampler-mix/#more-280"><img src="music_covers/music_op3n035.jpg"></td><td valign="top">Various Artists - enough records sampler mix [op3n035]<br /><br />
+		<br />
+		<br />
+		<a href="http://www.op3n.net/2009/05/op3n035-filipe-cruz-aka-ps-enough-records-sampler-mix/#more-280">release page</a> - <a href="http://www.archive.org/download/op3n035/op3n035_filipe_cruz_ps.mp3">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>-->
+		<tr><td valign="top"><a href="http://beatsplayfree.com/releases/%5bbpf003%5d1/1.zip"><img src="music_covers/music_bpf003.jpg"></td><td valign="top">Various Artists - 1 [bpf003]<br /><br />
+		1) ps - 297b_090215<br />
+		<br />
+		[<a href="http://beatsplayfree.com/releases/%5bbpf003%5d1/1.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp200_kdes_vs_ps_-_live_helsinki_27_oct_2008.zip"><img src="music_covers/music_enrmp200.jpg"></td><td valign="top">kdes vs ps - Live Helsinki 27 Oct 2008 [enrmp200]<br /><br />
+		1) kdes vs ps - 1<br />
+		2) kdes vs ps - 2<br />
+		3) kdes vs ps - 3<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp200_kdes_vs_ps_-_live_helsinki_27_oct_2008.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp12_-_this_is_industrial__pt_.zip"><img src="music_covers/music_enrcmp12.jpg"></td><td valign="top">Various Artists - This is Industrial [pt] [enrcmp12]<br /><br />
+		2) ps vs Sektor 304 - Toxic Malice<br />
+		<br />[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp12_-_this_is_industrial__pt_.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.twilightluggage.com/rel/Various%20Artists%20-%20Winter%20Solstice%20(2008).zip"><img src="music_covers/music_tlmp10.jpg"></td><td valign="top">Various Artists - Winter Solstice [TLMP10]<br /><br />
+		4) gróhvrascht - bulk<br />
+		<br />[<a href="http://www.twilightluggage.com/rel/TLMP10" target="_parent">release page</a>] - [<a href="http://www.twilightluggage.com/rel/Various%20Artists%20-%20Winter%20Solstice%20(2008).zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/download/At013Ps.080319/At013.Ps.080319.zip"><img src="music_covers/music_at013.jpg"></td><td valign="top">ps - 080319 [AT013]<br /><br />
+		1) ps - 304_080319<br />
+		2) ps - 332l_080319<br />
+		3) ps - 327_080319 / Life After / Finally The Moment Has Past<br />
+		4) ps - 274_080319 / Gravity Of The Moon<br />
+		5) ps - 353c_080319<br />
+		6) ps - 332k_080319<br />
+		7) ps - The Lost Religion Of Light<br />
+		8) ps - Disintegrates<br />
+		9) ps - 303_080319<br />
+		<br />
+		[<a href="http://www.audiotalaia.net/at013.html" target="_parent">release page</a>] - [<a href="http://www.archive.org/download/At013Ps.080319_457/At013.Ps.080319.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp11_-_falesia_2.zip"><img src="music_covers/music_enrcmp11.jpg"></td><td valign="top">Various Artists - Falésia 2 [enrcmp11]<br /><br />
+		cd2 9) ps vs a naked lunch - untitled<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp11_-_falesia_2.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.twilightluggage.com/rel/grohvrascht%20-%20zimrenooord%20(2008).zip"><img src="music_covers/music_tlmp05.jpg"></td><td valign="top">gróhvrascht - zimrenooord [TMLP05]<br /><br />
+		1) gróhvrascht - runtime<br />
+		2) gróhvrascht - laptop<br />
+		3) gróhvrascht - tester<br />
+		4) gróhvrascht - limiter<br />
+		5) gróhvrascht - hendrix<br />
+		6) gróhvrascht - slash<br />
+		7) gróhvrascht - plague<br />
+		<br />
+		[<a href="http://www.twilightluggage.com/rel/grohvrascht%20-%20zimrenooord%20(2008).zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://coldinside.fileburst.com/madeinfire/MIFR-667_ps_-_closing_in_(ep)_2008.zip"><img src="music_covers/music_2.jpg"></td><td valign="top">ps - Closing In [MIFR-667]<br /><br />
+		1) ps - Finally The Moment Has Past (348_080301)<br />
+		2) ps - Still Waiting On Your Priorities (332l_080301)<br />
+		3) ps - Help Me! (352_080301)<br />
+		<br />
+		[<a href="http://www.coldinside.org/madeinfire/" target="_parent">release page</a>] - [<a href="http://coldinside.fileburst.com/madeinfire/MIFR-667_ps_-_closing_in_(ep)_2008.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_thisk43.jpg"></td><td valign="top">Various Artists - Thisagree & Shadow / Entulho Sonoro 4 [thisk.43]<br /><br />
+		11) ps - Finally The Moment Has Past<br />
+		<br />
+		[<a href="http://underworldmag.org/entulhosonoro/">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp154_ps_vs_sektor304_-_ps_vs_sektor304.zip"><img src="music_covers/music_enrmp154.jpg"></td><td valign="top">ps vs sektor304 - ps vs sektor304 [enrmp154]<br /><br />
+		1) ps vs sektor304 - 11:49<br />
+		2) ps vs sektor304 - 10:45<br />
+		3) ps vs sektor304 - 17:51<br />
+		4) ps vs sektor304 - 9:44<br />
+		5) ps vs sektor304 - 4:57<br />
+		6) ps vs sektor304 - 6:45<br />
+		7) ps vs sektor304 - 14:20<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp154_ps_vs_sektor304_-_ps_vs_sektor304.zip">download</a>]<br />
+		<!-- /* br />
+		"...num cocktail de glitch, noise e industrial...saboroso. Hoje é ps (Filipe Cruz) e Sektor304 (André Coelho e João Filipe), num frente a frente gravado numa jam improvisada. Um embate colossal de pura experimentação; eléctrico, electrónico, acústico ou computorizado, "ps vs sektor304" explora os limites da criação, da interacção... grande edição Enough Records!" - a trompa<br /> */ -->
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_zh27-966.jpg"></td><td valign="top">Various Artists - Your Life Has Been Mastered For You [ZH27-966]<br /><br />
+		<br />
+		<a href="http://www.zh27.org/">release page</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp07_-_datacross_1.zip"><img src="music_covers/music_enrcmp07.gif"></td><td valign="top">Various Artists - datacross.1 [enrcmp07]<br /><br />
+		1) ps - 350 070904<br />
+		5) ps - 348 070926<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp07_-_datacross_1.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://mirakelmusik.se/releases.php?rel=mir025" target="_parent"><img src="music_covers/music_mir025.jpg"></a></td><td valign="top">ps - friends reinterpretations of unreleased 332 variations volume 3 [mir025]<br /><br />
+		1) ps - 332 variation (nosfe's 332i_060211remixv2)<br />
+		2) ps - 332 variation (rngmnn's cereza negra)<br />
+		<br />
+		[<a href="http://mirakelmusik.se/releases.php?rel=mir025" target="_parent">release page</a>] - [<a href="http://sonicsquirrel.net/zip/mir025">download</a>]<br />
+		<!-- /* br />
+		"ps returns to Mirakelmusik with a little remix ep. The base of these tracks are a series of Jeskola Buzz songs made by ps in 2006. These were then sent to friends around the globe to be remixed. These remixes were split into different ep's and what we have here is the dark ambient part of those mixes. Here, the originals have been reinterpreted by Nosfe from Finland and Rngmnn from Germany. Nosfe's version is a very minimalistic track, featuring distant machine-like drones and noises. Rngmann's take is louder, noisier, less machines and more caves." - Mirakel<br /> */ -->
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://testtube.monocromatica.com/releases/tube076.htm" target="_parent"><img src="music_covers/music_tube076.jpg"></td><td valign="top">ps - friends reinterpretations of unreleased 332 variations volume 1 [tube076]<br /><br />
+		1) ps - 332 variation (prolepse's 02 remix)<br />
+		2) ps - 332 variation (etc remix)<br />
+		<br />
+		[<a href="http://testtube.monocromatica.com/releases/tube076.htm" target="_parent">release page</a>] - [<a href="http://www.archive.org/download/tube076/tube076.zip">download</a>]<br />
+		<!-- /* <br />
+		"This is our shortest release yet, and it is a long promised one. Promised to my friend ps (Filipe Cruz, curator at Enough Records) as part of a four - I think - volume series. Volume 2 and 4 are already out from some time now (Vol. 2 on Enough Records and Vol. 4 on MiMi). I don't know what happened to Vol. 3 but we're going backwards with this one.
+		The story is quite simple: Filipe handed out one of his trademark dark ambient pieces, called '332 Variations', to several musician friends, for them to work out from there and turn the piece into something new or whatever. I got to release two of those workouts/remixes/reworks (pick one): One by Prolepse and the other by Etc (a.k.a. Erratic or Undacova).
+		The results are quite different from each other. While Prolepse went with the drone/glitch approach to dark ambient, making the piece a mechanical and technological version of a nightmare (short but dense and scary), Etc opted for the 'acoustic doom' (Svarte Greiner's invention) - theme: Sparse and well directed granular distortion, echoing, damp sounds, earth shaking subbasses and other organic related sounds. Amazing track.
+		The artwork was made by Infetu, which also appears with one reworked piece in Volume 2. He also made the artwork for Volume 4.
+		Don't forget to check the previously released volumes, here (Volume 2) and here (Volume 4), for a complete and immersive experience." - Pedro Leitão<br /> */ -->
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp06_-_falesia.zip"><img src="music_covers/music_enrcmp06.jpg"></td><td valign="top">Various Artists - Falésia [enrcmp06]<br /><br />
+		cd2 2) ps - 345 070423<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp06_-_falesia.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp05_-_sound_research.zip"><img src="music_covers/music_enrcmp05.jpg"></td><td valign="top">Various Artists - Sound Research [enrcmp05]<br /><br />
+		1) ps vs xastre - untitled<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp05_-_sound_research.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/download/mi065_ps_frou332v4/332variation-nnymix.mp3"><img src="music_covers/music_mimi065.jpg"></td><td valign="top">ps - friends reinterpretations of unreleased 332 variations volume 4 [mimi065]<br /><br />
+		1) ps - 332 variation (nny mix)<br />
+		<br />
+		[<a href="http://www.clubotaku.org/mimi/uk/album65.php" target="_parent">release page</a>] - [<a href="http://www.archive.org/download/mi065_ps_frou332v4/332variation-nnymix.mp3">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_nny.gif"></td><td valign="top">nny - nny++ [cdrasud015]<br /><br />
+		1) nny vs ps - 001<br />
+		3) ps vs nny - 003<br />
+		<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp081_ps_-_friends_reinterpretations_of_unreleased_332_variations_volume_2.zip"><img src="music_covers/music_enrmp081.jpg"></td><td valign="top">ps - friends reinterpretations of unreleased 332 variations volume 2 [enrmp081]<br /><br />
+		1) ps - 332 variation (infetu's vrsnsmv smqlivb remix)<br />
+		2) ps - 332 variation (e:4c's untitled remix)<br />
+		3) ps - 332 variation (dream metaphor's procyon mix)<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp081_ps_-_friends_reinterpretations_of_unreleased_332_variations_volume_2.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/artists/ps/mimi052.zip"><img src="music_covers/music_mimi052.jpg"></td><td valign="top">ps - shell/esuna/dispel [mimi052]<br /><br />
+		1) ps - 332_051230<br />
+		2) ps - 332b_051231<br />
+		3) ps - 332d_060105 (edit)<br />
+		4) ps - 332c_060105<br />
+		5) ps - 332e_060108<br />
+		6) ps - 329_051030<br />
+		<br />
+		[<a href="http://www.clubotaku.org/mimi/uk/album52.php" target="_parent">release page</a>] - [<a href="ftp://ftp.scene.org/pub/music/artists/ps/mimi052.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/compress/ntt037"><img src="music_covers/music_ntt037.jpg"></td><td valign="top">dotkràz vs idle sunder vs casual coincidence - rust [ntt037]<br /><br />
+		1) dotkràz vs idle sunder - reflectional feedback<br />
+		2) idle sunder vs dotkràz - shedding memory<br />
+		3) idle sunder vs casual coincidence - the burden of secrets<br />
+		4) casual coincidence vs dotkràz - rusted faith<br />
+		5) dotkràz vs idle sunder - a course of deliverance<br />
+		<br />
+		[<a href="http://www.entity.be/entity/releases/release37.htm">release page</a>] - [<a href="http://www.archive.org/compress/ntt037">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp076_ps_-_shimoyake_ai__338_060824_.zip"><img src="music_covers/music_enrmp076.jpg"></td><td valign="top">ps - shimoyake ai (338_060824) [enrmp076]<br /><br />
+		1) ps - in<br />
+		2) ps - z<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp076_ps_-_shimoyake_ai__338_060824_.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/download/SilentApproach.idmix15/SilentApproach.idmix15_vbr_mp3.zip"><img src="music_covers/music_idmix15.jpg"></td><td valign="top">JM - Silent Approach [idmix15]<br /><br />
+		12) dotkràz - 04<br />
+		<br />
+		[<a href="http://www.idealstandard.net/">release page</a>] - [<a href="http://www.archive.org/download/SilentApproach.idmix15/SilentApproach.idmix15_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.op3n.net/op3n/rels/%5Bop3n%5D002-CHOPLIN-tan_enfora.zip"><img src="music_covers/music_op3n002.jpg"></td><td valign="top">choplin - tan enfora [op3n002]<br /><br />
+		1) ps - she simply doesn't care anymore<br />
+		<br />
+		[<a href="http://www.op3n.net/op3n/002.php">release page</a>] - [<a href="http://www.op3n.net/op3n/rels/%5Bop3n%5D002-CHOPLIN-tan_enfora.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp060_lithis_-_untitled_ep.zip"><img src="music_covers/music_enrmp060.jpg"></td><td valign="top">lithis - untitled ep [enrmp060]<br /><br />
+		6) lithis - mörkret (ps mörk ängel remix)<br />
+		7) ps - aldrig<br />
+		<br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp060_lithis_-_untitled_ep.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/mhrk033"><img src="music_covers/music_mhrk033.jpg"></td><td valign="top">Various Artists - music for elevators vol.2 [mhrk033]<br /><br />
+		11) ps - 325 050919<br />
+		<br />
+		[<a href="http://www.archive.org/details/mhrk033">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/download/tube026/tube026.zip"><img src="music_covers/music_tube026.jpg"></td><td valign="top">nny - ect [tube026]<br /><br />
+		10) nny - 1noise (ps mix) <br />
+		<br />
+		[<a href="http://monocromatica.com/netlabel/releases/tube026.htm" target="_parent">release page</a>] - [<a href="http://www.archive.org/download/tube026/tube026.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/details/mir013"><img src="music_covers/music_mir013.jpg"></a></td><td valign="top">ps - music for sketching ghosts in the dark [mir013]<br /><br />
+		1) ps - like butterflies dancing without wings<br />
+		2) ps - she simply doesn't care anymore<br />
+		3) ps - harnessing low voltage under an ivory iron curtain<br />
+		<br />
+		[<a href="http://mirakelmusik.se/releases.php?rel=mir013" target="_parent">release page</a>] - [<a href="http://www.archive.org/details/mir013">download</a>]<br />
+		<!-- /*
+		 eduardo chagas, 9-10-2005
+		ps., aka Filipe Cruz, jovem experimentador sonoro de Vila Nova de Gaia, e entusiasta da netlabel lusa Enough Records, lançou há pouco tempo um EP na congénere sueca mirakelmusik. Este projecto surge na sequência de outros ligados à música electrónica em que Filipe Cruz se tem envolvido, em paralelo com a actividade ligada à engenharia de computadores e ao experimentalismo pseudogenerativo. O EP de que falo, denominado music for sketching ghosts in the dark, consubstancia-se em três peças, tituladas respectivamente 1) Like butterflies dancing without wings; 2) She simply doesn't care anymore; e 3) Harnessing low voltage under an ivory iron curtain. As peças - duas longas, à volta dos 12 minutos cada, com uma de 4 pelo meio - mesclam sons de electroestática digital com ondas dronológicas em fundo, desenvolvendo-se as texturas e os sinais sonoros em diferentes planos, com enorme profundidade de campo. A massa sonora de glitch e micro-sons (como ondas-curtas) move-se lentamente, criando ambientes minimalistas tensos e escuros, quase sinistros, sublinhados por ocasionais descargas de baixas frequências. Trabalho muito bem feito. Pode ser descarregado e ouvido a partir da página da mirakelmusic..
+		
+		phoenelai++, 17-8-2005
+		Effective glitch and static walls built w/ a touch of drone scapes and low end rumblings. Nicely done 5+.
+		
+		Kasper van Hoek, 17-8-2005
+		Slow moving thunder and electrostatic glitches melted together to form threating drones. Very minimal yet well composed songs. The tracks aren't changing very much buy they reveal a nice and dark sphere. Very Good!.
+		(earlabs.org)
+		*/ -->
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/download/ntt027/ntt027_vbr_mp3.zip"><img src="music_covers/music_ntt027.jpg"></td><td valign="top">dotkràz - untitled [ntt027]<br /><br />
+		1) dotkràz - 01<br />
+		2) dotkràz - 02<br />
+		3) dotkràz - 03<br />
+		4) dotkràz - 04<br /><br />
+		[<a href="http://www.entity.be/entity/releases/release32.htm" target="_parent">release page</a>] - [<a href="http://www.archive.org/download/ntt027/ntt027_vbr_mp3.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp04_-_alien_artifact/enoughrecords_-_alien_artifact.zip"><img src="music_covers/music_enrcmp04.jpg"></td><td valign="top">Various Artists - alien artifact [enrcmp04]<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp04_-_alien_artifact/enoughrecords_-_alien_artifact.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_slsk005.jpg"></td><td valign="top">Various Artists - corrupted cause [slsk005]<br /><br />
+		[<a href="http://soulseekrecords.org/releases/" target="_parent">release page</a>] - [<a href="http://scene.org/dir.php?dir=%2Fmusic%2Fgroups%2Fsoulseek_records%2Freleases%2Fslsk005_va_-_corrupted_cause/">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/compress/ntt014"><img src="music_covers/music_ntt014.jpg"></td><td valign="top">Say My Lovehole, Hanga Gallon - Universumix [ntt014]<br /><br />
+		11) ps+erratic<br /><br />
+		[<a href="http://www.entity.be/entity/releases/release14.htm">release page</a>] - [<a href="http://www.archive.org/compress/ntt014">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp03_-_dark_vault.zip"><img src="music_covers/music_enrcmp03.jpg"></td><td valign="top">Various Artists - dark vault [enrcmp03]<br /><br />
+		1) ps - 320_030905<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrcmp03_-_dark_vault.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp030_duncan_avoid_-_cybernetics.zip"><img src="music_covers/music_enrmp030.jpg"></td><td valign="top">duncan avoid - cybernetics [enrmp030]<br /><br />
+		12) duncan avoid - into matter (ps 301_030611_remix)<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp030_duncan_avoid_-_cybernetics.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.archive.org/compress/ntt001"><img src="music_covers/music_ntt001.jpg"></td><td valign="top">5e phalanx - pragmatic impulse [ntt001]<br /><br />
+		1) 5e phalanx - pragmatic impulse<br /><br />
+		[<a href="http://www.entity.be/entity/releases/release01.htm" target="_parent">release page</a> - <a href="http://www.archive.org/compress/ntt001">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://ivdt.net/mp3018.html" target="_parent"><img src="music_covers/music_mp3018.jpg"></td><td valign="top">Various Artists - as we struggle thru these times [idtv-mp3018]<br /><br />
+		8) ps - kaul-li zakhu<br /><br />
+		[<a href="http://ivdt.net/mp3018.html" target="_parent">release page</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="http://www.entity.be/entity/releases/tns/tns006.htm"><img src="music_covers/music_tns006.jpg"></td><td valign="top">ps - a girl raped before her marriage is forever a whore [tns006]<br /><br />
+		1) ps - if i could only say i love you<br />
+		2) ps - all is full of love (yes, i know)<br />
+		3) ps - father joseph's piano lessons<br />
+		4) ps - father joseph's piano lessons (post)<br />
+		5) ps - all is full of love (no, you don't)<br /><br />
+		[<a href="http://www.entity.be/entity/releases/tns/tns006.htm">release page</a>]<br />
+		<!-- /*
+		Vreemd maar cool album. Het eerste nummer zweeft ergens binnen de dark ambient sferen. Aardig, maar niet geweldig. De beide All Is Full Of Love tracks neigen dan weer veel meer dan noizy, breakcore achtig lawaai. Erg cool spul, maar niet wat je noemt toegankelijk. De Father Joseph's tracks zijn dan weer heel wat fragieler, en leunen veel dichter aan bij de ambient ala Brian Eno.
+		
+		Fijne mix, goed uitgevoerd, al had de eerste track net dat ietsje beter mogen zijn. 4*
+		- Onderhond (musicmeter.nl)
+		*/ -->
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp029_ps_-_everything_is_useless_without_you.zip"><img src="music_covers/music_enrmp029.jpg"></td><td valign="top">ps - everything is useless without you [enrmp029]<br /><br />
+		1) ps - 081_030222<br />
+		2) ps - 265_021216 (feat. sinebag)<br />
+		3) ps - 299_030602<br />
+		4) ps - 286_030321<br />
+		5) ps - 295_030604<br />
+		6) ps - 232_020721<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp029_ps_-_everything_is_useless_without_you.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_1.gif"></td><td valign="top">ps - don't [enrmp013]<br /><br />
+		1) ps - ps-005_23102002<br />
+		2) ps - ps-249_22102002_inverti<br />
+		3) mental anguish - reign of locusts (ps_remx01)<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp013_ps_-_don%27t/">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp012_ps_-_i_love_you.zip"><img src="music_covers/music_enrmp012.jpg"></td><td valign="top">ps - i love you [enrmp012]<br /><br />
+		1) ps - track01<br />
+		2) ps - track02<br />
+		3) ps - track03<br />
+		4) ps - track04<br />
+		5) ps - track05<br />
+		6) ps - track06<br />
+		7) ps - track07<br />
+		8) ps - track08<br />
+		9) ps - track09<br />
+		10) ps - track10<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp012_ps_-_i_love_you.zip">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_1.gif"></td><td valign="top">ps - benfield no travel sprite bubbles and a rice cup of cake [enrmp009]<br /><br />
+		1) ps - benfield<br />
+		2) ps - ps-201_08062002<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp009_ps_-_benfield_no_travel_sprite_bubbles_and_a_rice_cup_of_cake/">download</a>]<br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp001_ps_-_from_my_own_little_corner.zip"><img src="music_covers/music_enrmp001.jpg"></td><td valign="top">ps - from my own little corner [enrmp001]<br /><br />
+		1) ps - lost in familiar alleys<br />
+		2) ps - while she is not here<br />
+		3) xhale vs ps - two seconds of time<br /><br />
+		[<a href="ftp://ftp.scene.org/pub/music/groups/enough_records/enrmp001_ps_-_from_my_own_little_corner.zip">download</a>]<br />
+		</td></tr>
+		<!--<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_1.gif"></td><td valign="top">ps - ill dreams and other equally interesting nightmare experiences [n/a]<br /><br />
+		2) ps - crisp burned deep tissue<br />
+		4) ps - bizarre cosmic camel ride<br />
+		5) ps - ps2810 (lankhae05)<br />
+		6) ps - lankhae06<br />
+		11) ps - silo<br />
+		13) ps - graerk<br />
+		15) ps - kraskapti dawnrise<br />
+		16) ps - washing the sky<br />
+		17) ps - cloud dreaming<br />
+		23) ps - ssteh7krl<br />
+		24) ps - spack2<br />
+		51) ps - ps-1912<br />
+		66) ps - firhm<br />
+		83) ps - i live there in a dream (lankhae07)<br />
+		<br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/idaoeine/">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_1.gif"></td><td valign="top">ps - unstuk ep [n/a]<br /><br />
+		1) ps - 076_08032001<br />
+		2) ps - 021_07092000<br />
+		3) ps - 118_04032001<br />
+		<br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/unstukep/">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_1.gif"></td><td valign="top">ps - time lapses [n/a]<br /><br />
+		1) ps - 117_14032001<br />
+		2) ps - 126_06042001<br />
+		<br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/timelapses/">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_tinw.jpg"></td><td valign="top">ps - there is nothing wrong [n/a]<br /><br />
+		1) ps - ssteh7krl<br />
+		2) ps - spack2<br />
+		<br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/tinw/">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td valign="top"><a><img src="music_covers/music_bhaf.jpg"></td><td valign="top">ps - bread hedgehogs and flowers [n/a]<br /><br />
+		1) ps - warpcore filters<br />
+		2) ps - tin coil (yoyo pull version)<br />
+		3) ps - parsed siren<br />
+		4) ps - space flowers - drowned guilt<br /><br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/bhaf/">download</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>
+		<tr><td colspan="2"><br />
+		even more ancient audio stuff without cover graphics:<br />
+		<br />
+		<a href="http://arghprkl.inpuj.net/ap50.html" target="_parent">arghprkl #50</a> - 404<br />
+		<a href="ftp://ftp.scene.org/pub/music/groups/nse/nse_011119_019_ps_-_ps-139_mp3.zip">ps - 139 [nse]</a><br />
+		<a hreF="ftp://ftp.scene.org/pub/music/groups/nse/nse_010921_015_ps_-_010911_mp3.zip">ps - 010911 [nse]</a><br />
+		<a href="ftp://ftp.scene.org/pub/music/artists/ps/darkcorner/ps-dark_corner_03092001.mp3">ps - darkcorner</a><br />
+		<a href="ftp://ftp.scene.org/pub/music/groups/nse/nse_010531_009_ps_-_sleeplesseattle_(bent_probes)_mp3.zip">ps - sleepless seattle (bent probes) [nse]</a><br />
+		<a href="ftp://ftp.scene.org/pub/music/groups/nse/nse_010428_005_ps_-_stealthpark_mp3.zip">ps - stealthpark [nse]</a><br />
+		</td></tr>
+		<tr><td colspan="2"><br /></td></tr>-->
+		
+		
+		<tr><td colspan="2">
+		<a name="reviews"></a>
+		<h1>Reviews</h1>
+		
+		<p>"Cerrado. Prosseguindo com o seu intenso trabalho de disseminação, ps (a.k.a. Filipe Cruz) tem um novo registo. Este chama-se “m&m” e é uma edição da netlabel Editora do Porto. É uma torrente sonora densa e avassaladora, de um noise cada vez mais apurado. Dark. Incisivo. 20 segundos; é o tempo que dura cada uma das primeiras quatro faixas de “m&m”. Sombrio." - <a href="http://a-trompa.net/netlabels/netlabelsmm-ps">Rui Dinis / A Trompa</a></p>
+		
+		<p>"...num cocktail de glitch, noise e industrial...saboroso. Hoje é ps (Filipe Cruz) e Sektor304 (André Coelho e João Filipe), num frente a frente gravado numa jam improvisada. Um embate colossal de pura experimentação; eléctrico, electrónico, acústico ou computorizado, "ps vs sektor304" explora os limites da criação, da interacção... grande edição Enough Records!" - <a href="http://a-trompa.net/netlabels/netlabelsps-vs-sektor304-ps-vs-sektor304">Rui Dinis / A Trompa</a></p>
+		
+		<p>"ps., aka Filipe Cruz, jovem experimentador sonoro de Vila Nova de Gaia, e entusiasta da netlabel lusa Enough Records, lançou há pouco tempo um EP na congénere sueca mirakelmusik. Este projecto surge na sequência de outros ligados à música electrónica em que Filipe Cruz se tem envolvido, em paralelo com a actividade ligada à engenharia de computadores e ao experimentalismo pseudogenerativo. O EP de que falo, denominado music for sketching ghosts in the dark, consubstancia-se em três peças, tituladas respectivamente 1) Like butterflies dancing without wings; 2) She simply doesn't care anymore; e 3) Harnessing low voltage under an ivory iron curtain. As peças - duas longas, à volta dos 12 minutos cada, com uma de 4 pelo meio - mesclam sons de electroestática digital com ondas dronológicas em fundo, desenvolvendo-se as texturas e os sinais sonoros em diferentes planos, com enorme profundidade de campo. A massa sonora de glitch e micro-sons (como ondas-curtas) move-se lentamente, criando ambientes minimalistas tensos e escuros, quase sinistros, sublinhados por ocasionais descargas de baixas frequências. Trabalho muito bem feito. Pode ser descarregado e ouvido a partir da página da mirakelmusic.." - eduardo chagas 9-10-2005</p>
+		
+		<p>"Effective glitch and static walls built w/ a touch of drone scapes and low end rumblings. Nicely done 5+." - phoenelai++ 17-8-2005</p>
+		
+		<p>"Slow moving thunder and electrostatic glitches melted together to form threating drones. Very minimal yet well composed songs. The tracks aren't changing very much buy they reveal a nice and dark sphere. Very Good!" - Kasper van Hoek 17-8-2005</p>
+		
+		</td></tr>
+		<!--<tr><td colspan="2"><br /></td></tr>-->
+		<tr><td colspan="2">
+		<a name="concerts"></a>
+		<h1>Live Concerts</h1>
+		120504 - ps featuring The Antti Jadertpolm Quartet @ Dream House Special - Lähiradio (Helsinki, Finland)<br>
+		120226 - ps @ Flausina (Lisbon)<br>
+		111231 - ps @ Skeneklubi (Helsinki, Finland)<br />
+		111223 - ps featuring gmr, Festival Matanças @ Casa Viva (Porto)<br />
+		110622 - ps, Kuucvaals 4 @ ??? (???/Latvia)<br />
+		100919 - ps + samuel xharope +++ @ Galerias Santa Clara (Coimbra)<br />
+		100712 - ps @ Convento da Saudação (Montemor-o-Novo)<br />
+		100709 - ps @ Associação 25 Abril (Lisboa)<br />
+		100109 - ps vs André Coelho @ Fábrica de Som (Porto)<br />
+		090725 - Structura vs ps @ Revolver Bar (Cacilhas)<br />
+		090430 - ps vs Sektor 304, STFU Porto 09 @ Fábrica de Som (Porto)<br />
+		081027 - kdes vs ps, Oksasenkatu 11 (Helsinki/Finland)<br />
+		081025 - kosmoplovci++, Altparty @ Helsinki Cable Factory (Helsinki, Finland)<br />
+		080703 - ps, opening for One Man Nation @ Casa Viva (Porto)<br />
+		080614 - ps vs Sparagmos, opening for Hyaena Reich, Vysehrad and EYE8SOCCER @ Fábrica de Som (Porto)<br />
+		080516 - ps, BPF Porto, opening for OCP @ Pitch Club bar area (Porto)<br />
+		080424 - ps, STFU Porto 08 @ Fábrica de Som (Porto)<br />
+		080405 - ps, opening for Feltro @ O Século (Lisbon)<br />
+		080222 - ps vs Sektor 304, Enough Noise @ Fábrica de Som (Porto)<br />
+		070602 - ps, opening for VelgeNaturlig and Stalker Vitki @ Fáb. de Som (Porto)<br />
+		060526 - Aenedra, opening for Sam Pull @ Fon. Mun. de Lisboa (Lisbon)<br />
+		031102 - Aenedra, ExperimentaDesign2003 @ Teatro S.Miguel (Lisbon)<br />
+		02???? - Aenedra, ??? trance party chillout area (Figueiró dos Vinhos??)<br />
+		</td></tr>
+		<!--<tr><td colspan="2"><br /></td></tr>-->
+		<tr><td colspan="2">
+		<a name="talks2"></a>
+		<h1>Talks & Interviews</h1>
+		1205?? - <a href="http://m2hz.net/ohjelmat/dream-house?quicktabs_3=1">M2HZ Dream House Interviews / Documentary</a><br>
+		120223 - <a href="http://noiseanoite.blogspot.com/2012/02/edicao-numero-13.html">Noise a Noite @ Rádio Zero</a><br>
+		110430 - <a href="http://petecogle.co.uk/blog/2011/04/30/pcp348-enough-is-enough/">ps / Enough Records @ Pete Cogle's Podcast</a><br>
+		100605 - <a href="http://chilicomcarne.blogspot.com/2010/05/pequeno-e-bom-encontros-sobre-edicao.html">CCC Pequeno é bom! @ Casa da Achada (Lisboa)</a> (<a href="http://merankorii.blogspot.com/2010/08/pequenas-conversas-e-bom.html">registo video</a>)<br />
+		090913 - Enough is Enough - Movimento Netaudio em Portugal @ Barcamp PT Setembro 09 (Coimbra)<br />
+		</td></tr>
+		
+		
+		<tr><td colspan="2">
+		<a name="photos"></a>
+		<h1>Photos</h1>
+		<p><img src="artist_photos/ps001.jpg" width="75%"></p>
+		<p><img src="artist_photos/ps005.jpg" width="75%"></p>		
+		</td></tr>
+
+
+		
+		<tr><td colspan="2">
+		<a name="events2"></a>
+		<h1>Organized Events</h1>
+		100109 - <a href="http://enoughrecords.scene.org/flyers/flyer_100109.jpg">Falésia 3 release party</a><br />
+		090828 - <a href="http://enoughrecords.scene.org/flyers/flyer_090828.jpg">Beats Play Free</a><br />
+		090430 - <a href="http://userserve-ak.last.fm/serve/_/24604733/STFU+Porto+stfuporto2009_programacao.jpg">STFU Porto 2009</a><br />
+		
+		081003 - <a href="http://enoughrecords.scene.org/flyers/flyer_081003.jpg">Beats Play Free</a><br />
+		080614 - <a href="http://enoughrecords.scene.org/flyers/flyer_080614.jpg">Falésia 2 release party</a><br />
+		080424 - <a href="http://enoughrecords.scene.org/flyers/flyer_080424b.gif">STFU Porto 2008</a><br />
+		080222 - <a href="http://enoughrecords.scene.org/flyers/flyer_080222.gif">Enough Noise</a><br />
+		070921 - <a href="http://enoughrecords.scene.org/flyers/flyer_070921.gif">Enough Noise</a><br />
+		070714 - <a href="http://enoughrecords.scene.org/flyers/flyer_070714.jpg">Enough Electroshit</a><br />
+		070602 - <a href="http://enoughrecords.scene.org/flyers/flyer_070602.jpg">Falésia release party</a><br />
+		070511 - <a href="http://enoughrecords.scene.org/flyers/flyer_070511.jpg">PsychotekTrauma release party</a><br />
+		070315 - <a href="http://www.enoughrecords.scene.org/stfuporto/">STFU Porto 2007</a><br />
+		</td></tr>
+		
+		</table>
+		</div>
+	</div>
+	
+	<br><br><br>
+</div>
+</body>
+</html>
